@@ -13,11 +13,15 @@
         android:layout_marginTop="20dp"
         app:autoPlay="true"
         app:disableAutoPlayOnUserInteraction="false"
-        app:fillColor="#FFFFFFFF"
-        app:pageColor="#00000000"
-        app:indicatorVisibility="gone"
+        app:fillColor="@color/purple_500"
+        app:pageColor="@color/teal_700"
+        app:indicatorVisibility="visible"
         app:radius="6dp"
-        app:strokeColor="#FF777777"
+        app:snap="false"
+        app:pageTransformer="flow"
+        app:indicatorOrientation="vertical"
+        app:indicatorGravity="start|bottom"
+        app:strokeColor="#FF0000"
         app:strokeWidth="1dp" />
 
 </LinearLayout>
